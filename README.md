@@ -198,3 +198,74 @@ This project is developed as part of a senior design course requirement.
 For questions or issues, contact the project advisor or team leader.
 
 **Last Updated:** January 2026
+
+---
+
+## 📱 Mobile Application
+
+Evalon mobil uygulaması Flutter framework kullanılarak geliştirilmiştir.
+
+### Klasör Yapısı
+
+```
+evalon_mobil/
+├── lib/
+│   ├── core/
+│   │   └── theme/
+│   │       └── app_theme.dart     # Tema ve renk tanımları
+│   ├── screens/
+│   │   ├── splash_screen.dart     # Açılış ekranı
+│   │   ├── onboarding_screen.dart # Onboarding akışı
+│   │   ├── login_screen.dart      # Giriş ekranı
+│   │   ├── home_screen.dart       # Ana sayfa
+│   │   ├── dashboard_screen.dart  # Dashboard
+│   │   ├── portfolio_screen.dart  # Portföy yönetimi
+│   │   ├── strategies_screen.dart # Strateji listesi
+│   │   └── profile_screen.dart    # Profil ayarları
+│   └── main.dart                  # Uygulama giriş noktası
+├── android/                       # Android platform dosyaları
+├── ios/                           # iOS platform dosyaları
+└── pubspec.yaml                   # Flutter bağımlılıkları
+```
+
+### Kullanılan Teknolojiler
+
+- **Flutter 3.32+** - Cross-platform UI framework
+- **Dart 3.8+** - Programlama dili
+- **Google Fonts** - Tipografi (Inter font ailesi)
+- **fl_chart** - Grafik ve chart bileşenleri
+
+### Tema ve Tasarım
+
+- **Dark Mode** - Premium koyu tema
+- **Glassmorphism** - Modern cam efekti tasarımı
+- **Gradient Colors** - İndigo/Mor degrade renk paleti
+- **Micro-animations** - Akıcı geçiş animasyonları
+
+### Mobil Uygulamayı Çalıştırma
+
+```bash
+# Proje klasörüne git
+cd evalon_mobil
+
+# Bağımlılıkları yükle
+flutter pub get
+
+# iOS Simulator'da çalıştır
+flutter run -d ios
+
+# Android Emulator'da çalıştır
+flutter run -d android
+
+# Chrome'da çalıştır (web)
+flutter run -d chrome
+```
+
+### Gereksinimler
+
+- Flutter SDK 3.32+
+- Xcode 15+ (iOS için)
+- Android Studio (Android için)
+- Android SDK Command-line Tools
+
+---
