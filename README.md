@@ -6,10 +6,10 @@ AI-powered financial analysis and algorithmic trading platform for retail invest
 **Senior Design Project - 2025**
 
 ### Team Members
-- Ali Berk Yeşilduman (Leader) - [Student No]
+- Ali Berk Yeşilduman (Leader) - 20200808035
 - Zehra Doğru - [Student No]
 - Ahmet Faruk Tekeli - [Student No]
-- Münevver Nur Topluyürek - [Student No]
+- Münevver Nur Topluyürek -20210808067
 
 **Advisor:** Alper Özcan
 
