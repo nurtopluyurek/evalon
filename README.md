@@ -158,114 +158,74 @@ docker-compose up --build
 
 ### Strategy Service (Port 8002)
 - `POST /strategies` - Create new strategy
-- `GET /strategies` - List all strategies
-- `GET /strategies/{id}` - Get strategy by ID
-- `DELETE /strategies/{id}` - Delete strategy
-
-**Swagger UI:** http://localhost:8002/docs
-
----
-
-## Testing
-
-```bash
-# Run backend tests
-cd backend/auth-service
-pytest
-
-# Test API endpoints
-curl http://localhost:8001/health
-```
-
----
-
-## Contributing
-
-This is a senior design project. For team members:
-1. Create feature branch from `main`
-2. Make changes
-3. Create pull request
-4. Wait for review before merging
-
----
-
-## License
-This project is developed as part of a senior design course requirement.
-
----
-
-## Contact
-For questions or issues, contact the project advisor or team leader.
-
-**Last Updated:** January 2026
 
 ---
 
 ## 📱 Mobile Application
 
-Evalon mobil uygulaması Flutter framework kullanılarak geliştirilmiştir.
+The Evalon mobile application is developed using the Flutter framework.
 
-### Klasör Yapısı
+### Folder Structure
 
 ```
 evalon_mobil/
 ├── lib/
 │   ├── core/
 │   │   └── theme/
-│   │       └── app_theme.dart     # Tema ve renk tanımları
+│   │       └── app_theme.dart     # Theme and color definitions
 │   ├── screens/
-│   │   ├── splash_screen.dart     # Açılış ekranı
-│   │   ├── onboarding_screen.dart # Onboarding akışı
-│   │   ├── login_screen.dart      # Giriş ekranı
-│   │   ├── home_screen.dart       # Ana sayfa
+│   │   ├── splash_screen.dart     # Splash screen
+│   │   ├── onboarding_screen.dart # Onboarding flow
+│   │   ├── login_screen.dart      # Login screen
+│   │   ├── home_screen.dart       # Home page
 │   │   ├── dashboard_screen.dart  # Dashboard
-│   │   ├── portfolio_screen.dart  # Portföy yönetimi
-│   │   ├── strategies_screen.dart # Strateji listesi
-│   │   └── profile_screen.dart    # Profil ayarları
-│   └── main.dart                  # Uygulama giriş noktası
-├── android/                       # Android platform dosyaları
-├── ios/                           # iOS platform dosyaları
-└── pubspec.yaml                   # Flutter bağımlılıkları
+│   │   ├── portfolio_screen.dart  # Portfolio management
+│   │   ├── strategies_screen.dart # Strategy list
+│   │   └── profile_screen.dart    # Profile settings
+│   └── main.dart                  # Application entry point
+├── android/                       # Android platform files
+├── ios/                           # iOS platform files
+└── pubspec.yaml                   # Flutter dependencies
 ```
 
-### Kullanılan Teknolojiler
+### Technologies Used
 
 - **Flutter 3.32+** - Cross-platform UI framework
-- **Dart 3.8+** - Programlama dili
-- **Google Fonts** - Tipografi (Inter font ailesi)
-- **fl_chart** - Grafik ve chart bileşenleri
+- **Dart 3.8+** - Programming language
+- **Google Fonts** - Typography (Inter font family)
+- **fl_chart** - Charts and graph components
 
-### Tema ve Tasarım
+### Theme & Design
 
-- **Dark Mode** - Premium koyu tema
-- **Glassmorphism** - Modern cam efekti tasarımı
-- **Gradient Colors** - İndigo/Mor degrade renk paleti
-- **Micro-animations** - Akıcı geçiş animasyonları
+- **Dark Mode** - Premium dark theme
+- **Glassmorphism** - Modern glass effect design
+- **Gradient Colors** - Indigo/Purple gradient color palette
+- **Micro-animations** - Smooth transition animations
 
-### Mobil Uygulamayı Çalıştırma
+### Running the Mobile App
 
 ```bash
-# Proje klasörüne git
+# Navigate to project folder
 cd evalon_mobil
 
-# Bağımlılıkları yükle
+# Install dependencies
 flutter pub get
 
-# iOS Simulator'da çalıştır
+# Run on iOS Simulator
 flutter run -d ios
 
-# Android Emulator'da çalıştır
+# Run on Android Emulator
 flutter run -d android
 
-# Chrome'da çalıştır (web)
+# Run on Chrome (web)
 flutter run -d chrome
 ```
 
-### Gereksinimler
+### Requirements
 
 - Flutter SDK 3.32+
-- Xcode 15+ (iOS için)
-- Android Studio (Android için)
+- Xcode 15+ (for iOS)
+- Android Studio (for Android)
 - Android SDK Command-line Tools
 
 ---
